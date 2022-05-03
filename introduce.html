@@ -3,28 +3,47 @@
 <html>
     <head>
         <title>Kim hyung in</title>
+        
         <style>
+            
+            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Montserrat:wght@500&family=Noto+Serif+KR:wght@200&family=Poppins:wght@500;600&family=Roboto+Condensed&display=swap');
+            
+
+
             body{
-                background-color: rgb(41, 44, 51);
+                background: linear-gradient(90deg, rgb(105, 110, 128), rgb(124, 170, 197) );
                 margin: 0;
                 padding: 0;
+    
+                
                 
             }
             #title {
                 color : white;
-                font-size:3em; 
+                font-size:40px; 
+                font-family: 'Montserrat';
                 background-color: rgba(0, 0, 0, 0.466);
                 width: 100vw;
+                height: 81px;
                 
+                position: relative;
                 text-align: left;
             }
 
-            .icon{
+            .menuicon {
+                margin-left: 60px;
+                margin-right: 60px;
+            }
+
+
+            .iconbanner{
                 text-align: right;
                 background-color: white;
-                height : 59px;
+                height : 55px;
                 width: 100vw;
-                
+
+                position: absolute; 
+                top:81px;
             }
 
             .right {
@@ -33,7 +52,7 @@
                 
                 left:51.6%;
                 text-align: left;
-                font-size : 1em;
+                font-size : 15px;
                 
                 
             }
@@ -45,14 +64,16 @@
                 right:51.6%;
                 
                 text-align: right;
-                font-size : 2.7em;
+                font-size : 3em;
                 
             }
 
             .list {
                 color:white;
-                font-size : 1.7em;
+                font-size : 1.9em;
             }
+
+
             
         </style>
     </head>
@@ -61,30 +82,42 @@
 
     <body>
 
-        <div id="title" style="float: inline-start;">KHI's Space</div>
-        <div class="icon">
-            <h3 style="color:white">&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </h3>
-            <a href="https://github.com/khi99">
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="40" height="40" >Git
-            </a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://khi99.tistory.com/">
-                <img src="https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/5a539919017800001.png" width="40" height="40">Tistory
-            </a><br><br><br><br>
+        <div id="title">
+            <div>KHI's Space</div> 
+            <div class="menuicon" style="position: absolute;  top: -12px; left: 300px;">
+                <button>Listening Course</button>
+                <button>Available language</button>
+                <button>Hobby</button>
+            </div>
+            
         </div>
-        
-    
 
-        <div class="left" style="top:45%;">Dankook University<br>Dept. of Software Student<br>Kim Hyung-In</div><br>
-        <div class="right" style="top:45%;">
-            <br>
-            안녕하세요, 멋진 개발자를 꿈꾸는 김형인입니다. 제 공간에 오신것을 환영합니다.<br>
-            어렸을때부터 컴퓨터로 하는것들에 흥미를 많이느껴 컴퓨터관련 전공을 생각했었고<br>
-            필요한 역량들을 다지며 소프트웨어학과에 진학하게 되었습니다.<br>
-            현재 저는 제 미래를 위해 열심히 공부하는 중이며<br>
-            우리 삶에 꼭 필요한 조력자가 될수있는 어플리케이션을 한가지 만들어보는 것이<br>
-            저의 목표입니다.<br>
+        <div class="iconbanner">
+            <div>
+                <a href="https://github.com/khi99">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="40" height="40" >Git
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://khi99.tistory.com/">
+                    <img src="https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/5a539919017800001.png" width="40" height="40">Tistory
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <div class="left" style="top:45%; font-family: 'Barlow'; font-weight:bold;">Dankook University<br>Dept. of Software<br>Kim Hyung-In</div><br>
+            <div class="right" style="top:44%; font-family: 'Noto Serif Kr';">
+                <br>
+                안녕하세요, 멋진 개발자를 꿈꾸는 김형인입니다.<br>
+                제 공간에 오신것을 환영합니다.<br>
+                어렸을때부터 컴퓨터로 하는것들에 흥미를 많이느껴<br> 
+                컴퓨터관련 전공을 생각했었고<br>
+                필요한 역량들을 다지며 소프트웨어학과에 진학하게 되었습니다.<br>
+                현재 저는 제 미래를 위해 열심히 공부하는 중이며<br>
+                우리 삶에 꼭 필요한 조력자가 될수있는 어플리케이션을 하나 만들어내는것이<br>
+                저의 목표입니다.<br>
 
          </div>
+        </div>
          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         
 
@@ -102,7 +135,7 @@
             </ul>
         </div>
         <div class="right" style="top:100%">
-            <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbQwu8i%2FbtrA6zsjAkR%2FkoJUKUPKGuGXhCiQNltDi0%2Fimg.png" width="400" height="400" >
+            <img src="https://blog.kakaocdn.net/dn/bQwu8i/btrA6zsjAkR/koJUKUPKGuGXhCiQNltDi0/img.png" width="480" height="400" >
         </div>
         <br><br><br><br><br>
 
@@ -118,13 +151,16 @@
         </div>
 
         <div class="left" style="top:170%">
-            <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbQwu8i%2FbtrA6zsjAkR%2FkoJUKUPKGuGXhCiQNltDi0%2Fimg.png" width="400" height="400" >
+            <img src="https://blog.kakaocdn.net/dn/etccJa/btrA68VyvtC/gp1h7wZ4w7kEb0SGrJWVRK/img.png" width="480" height="400" >
         </div>
 
 
         <div style="position: absolute; left: 39%; top : 240%">
             <h2 style="text-align: center; color:white">Contact<br>Email : hyungin414@naver.com</h2>
         </div>
+
+        폰트 변경, 취미(자주하는 게임, 가봤던 여행지 소개), 자주보는 유튜브채널 영상 추가
+
         <br><br><br><br><br>
 
     </body>
